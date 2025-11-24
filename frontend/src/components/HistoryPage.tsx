@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import { useEffect, useState } from "react";
+
 
 const API_URL = 'http://localhost:8000/api/chat';
 
@@ -45,12 +46,12 @@ function HistoryPage({ currentUser }: HistoryPageProps) {
     return (
         <div className="w-full max-w-5xl h-[600px] bg-white rounded-xl shadow-2xl flex flex-col">
             {/* Header */}
-            <div className="bg-teal-600 text-white px-6 py-4 rounded-t-xl flex justify-between items-center">
+            <div className="bg-[#1d67ad] text-white px-6 py-4 rounded-t-xl flex justify-between items-center">
                 <h2 className="text-xl font-semibold">Histórico - Usuário {currentUser}</h2>
                 <button
                     onClick={fetchHistory}
                     disabled={loading}
-                    className="px-4 py-2 bg-white text-teal-600 font-semibold rounded-lg hover:bg-gray-100 disabled:opacity-60 disabled:cursor-not-allowed transition-colors"
+                    className="px-4 py-2 bg-white text-[#4880ba] font-semibold rounded-lg hover:bg-gray-100 disabled:opacity-60 disabled:cursor-not-allowed transition-colors"
                 >
                     {loading ? 'Carregando...' : 'Atualizar'}
                 </button>

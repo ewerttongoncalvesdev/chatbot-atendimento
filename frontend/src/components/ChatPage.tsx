@@ -74,7 +74,7 @@ function ChatPage({ currentUser }: ChatPageProps) {
     return (
         <div className="w-full max-w-4xl h-[600px] bg-white rounded-xl shadow-2xl flex flex-col">
             {/* Chat Header */}
-            <div className="bg-teal-600 text-white px-6 py-4 rounded-t-xl">
+            <div className="bg-[#1d67ad] text-white px-6 py-4 rounded-t-xl">
                 <h2 className="text-xl font-semibold">Chat - Usuário {currentUser}</h2>
             </div>
 
@@ -96,7 +96,7 @@ function ChatPage({ currentUser }: ChatPageProps) {
                                         : 'bg-white'
                                     }`}
                             >
-                                <p className="font-semibold text-sm mb-1 text-teal-700">
+                                <p className="font-semibold text-sm mb-1 text-[#4880ba]">
                                     {msg.isUser ? `Usuário ${currentUser}` : 'Bot'}
                                 </p>
                                 <p className="text-gray-800">{msg.text}</p>
