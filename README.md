@@ -4,14 +4,14 @@ Sistema de chat fullstack desenvolvido com Django REST Framework e React + TypeS
 
 ## 📋 Índice
 
-- [Sobre o Projeto](#sobre-o-projeto)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Funcionalidades](#funcionalidades)
-- [Pré-requisitos](#pré-requisitos)
-- [Instalação e Execução](#instalação-e-execução)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Decisões Técnicas](#decisões-técnicas)
-- [API Endpoints](#api-endpoints)
+- Sobre o Projeto
+- Tecnologias Utilizadas
+- Funcionalidades
+- Pré-requisitos
+- Instalação e Execução
+- Estrutura do Projeto
+- Decisões Técnicas
+- API Endpoints
 
 ---
 
